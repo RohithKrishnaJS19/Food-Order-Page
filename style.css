@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.Section-one{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding:30px;
+}
+.Section-one p{
+    color:grey;
+}
+.Gallery-one,.Gallery-two,.Gallery-three,.Gallery-four{
+    display:inline-block;
+    width:183px;
+    border:black solid 5px;
+}
+.Section-two{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.Section-two button{
+    background-color:black;
+    color:white;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius:10px;
+}
+.Section-three{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+.Section-three table{
+    margin:auto;
+}
+.Section-three__button{
+    background-color:yellow;
+    width:300px;
+    padding:5px;
+    border-radius:5px;
+}
+#One :focus{
+    outline:none;
+}
+#One input{
+    padding:5px;
+}
